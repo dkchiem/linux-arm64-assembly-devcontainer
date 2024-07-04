@@ -5,7 +5,7 @@
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 
   // Get container from GitHub Packages
-  // "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "image": "ghcr.io/dkchiem/linux-arm64-assembly-devcontainer:main",
 
   // Build container locally from Dockerfile
   // "build": {
