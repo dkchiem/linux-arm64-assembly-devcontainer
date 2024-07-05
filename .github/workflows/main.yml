@@ -52,5 +52,6 @@ jobs:
           file: .devcontainer/Dockerfile
           push: true
           platforms: linux/arm64
+          provenance: false
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
